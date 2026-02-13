@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Tree Friends 🌳💚</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0c3a0c, #2c7a2c);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background-color: #145214;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    background: #1f5c1f;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,255,0,0.3);
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+footer {
+    padding: 10px;
+    background-color: #0f3d0f;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+🌲 Happy Tree Friends Videoları 💚
+</header>
+
+<div class="container">
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/CBCzXYqMtzE" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/q2WkUG-0_u4" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/F5v5abQF-ds" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/HO9S17Kz5Ds" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/8L2gW_1HxRQ" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/Nh70EZzT7N0" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/FBxK4Jj4R4Y" allowfullscreen></iframe>
+</div>
+
+<div class="video-card">
+    <iframe src="https://www.youtube.com/embed/9PmT0zRVfPk" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<footer>
+💚 Happy Tree Friends Fan Site | Videolar YouTube’dan geliyor
+</footer>
+
+</body>
+</html>
